@@ -1,0 +1,104 @@
+body{
+
+    background-image: url('./astonishingly-beautiful-scenery-sandy-beach-sea-with-breathtaking-clouds-sky.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+@media only screen and (max-width: 576px) {
+
+
+    body {
+
+        background-image: url('./Viko_mountain_21cdb417-c725-487d-a838-a76457048178.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+
+    }
+
+
+}
+.no-margin{
+
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+}
+
+#maindiv{
+
+    margin-top: 5rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    padding: 10px !important;
+    opacity: 0.7;
+
+
+}
+
+.weatherinput{
+
+    padding: 10px;
+
+}
+
+.text-28{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#cityname{
+
+    background-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+    height: 40px;
+    width: 250px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.bars{
+
+
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+button{
+    height: 40px;
+    width: 70px;
+    background-color: unset;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-family: 'Pacifico'; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#modalButton{
+
+    position: absolute !important;
+    top: -30000px !important;
+
+}
+input::placeholder{
+    color: #ffffff;
+}
